@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  margin: 0;
+  padding: 1em;
+}
+
+html {
+  min-height: 100%;
+  background: #010101;
+  background: -webkit-linear-gradient(-45deg, #010101 0%, #fefefe 100%);
+  background: -webkit-linear-gradient(315deg, #010101 0%, #fefefe 100%);
+  background: linear-gradient(135deg, #010101 0%, #fefefe 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#010101', endColorstr='#fefefe', GradientType=1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center
+}
+h1 {
+  font: 5em 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #fff;
+  text-shadow: 4px 4px 0px rgba(255,255,255,0.5), 7px 7px 0px rgba(0,0,0,1);
+}
